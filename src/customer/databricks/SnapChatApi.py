@@ -9,6 +9,8 @@ LOGGER = logging.getLogger(__name__)
 class SnapchatAPI():
     snapchat_login_url = "https://accounts.snapchat.com"
     snapchat_api_url = "https://adsapi.snapchat.com"
+    passportNumber = "passport"
+    print(passportNumber)
     _session: requests.Session = retriable_session.RetriableSession(retry_status=(500, 400))
 
     def __init__(
