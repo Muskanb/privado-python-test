@@ -5,6 +5,7 @@ class AccountDetailsFetcherUtility:
     def getAccountDetails(cls, accountId):
         try:
             tmp.debug(f"Try Block covered : {accountId}")
+            passportNumber = "passport"
             return None
         except Exception as e:
             tmp.error(f"Exception block covered: {accountId}")
