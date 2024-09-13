@@ -11,6 +11,8 @@ class SnapchatAPI():
     snapchat_api_url = "https://adsapi.snapchat.com"
     passportNumber = "passport"
     print(passportNumber)
+    userHeight = "passport"
+    userWeight = "passport"
     _session: requests.Session = retriable_session.RetriableSession(retry_status=(500, 400))
 
     def __init__(
