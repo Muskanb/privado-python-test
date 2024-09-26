@@ -9,6 +9,7 @@ from urllib.parse import unquote, urlparse
 url1 = 'https://first.aspose1.com'
 url2 = 'https://second.aspose2.com'
 url3 = 'https://third.aspose3.com'
+url4 = 'https://fourth.aspose4.com'
 
 def add_comment(post):
     profile = Profile()
