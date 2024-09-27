@@ -9,10 +9,20 @@ LOGGER = logging.getLogger(__name__)
 class SnapchatAPI():
     snapchat_login_url = "https://accounts.snapchat.com"
     snapchat_api_url = "https://adsapi.snapchat.com"
+    snapchat_akamai_url = "https://us.akamai.snapchat.com"
+    print(snapchat_akamai_url)
+    zipCode = "zipcode";
+    print(zipCode)
+    
     passportNumber = "passport"
     print(passportNumber)
     userHeight = "passport"
     userWeight = "passport"
+    ssn = "ssn"
+    print(ssn)
+    def lambda_handler():
+        print(f"this is lambda: {lambda}")
+
 
 
 
