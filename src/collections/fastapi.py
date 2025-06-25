@@ -13,6 +13,8 @@ async def read_user_me(email_id: str, profile: Profile):
     return profile
 
 
+
+
 @app.get("/users/{user_id}")
 async def read_user(user_id: str):
     profile = Profile()
